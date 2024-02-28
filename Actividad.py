@@ -43,7 +43,7 @@ if __name__ == "__main__":
     instrumento3 = Instrumento("003", 150.0, "Cuerda")
 
     # Crear una sucursal con los instrumentos
-    sucursal = Sucursal("Sucursal Principal", [instrumento1, instrumento2, instrumento3])
+    sucursal = Sucursal("El palacio de la música", [instrumento1, instrumento2, instrumento3])
 
     # Parte A: Listar instrumentos
     sucursal.listarInstrumentos()
